@@ -46,7 +46,7 @@ public class PasswordCrackerGUI {
     }
 
     private class CrackButtonListener implements ActionListener {
-        @Override
+       
         public void actionPerformed(ActionEvent e) {
             String hash = passwordField.getText();
             String crackerType = (String) crackerTypeBox.getSelectedItem();

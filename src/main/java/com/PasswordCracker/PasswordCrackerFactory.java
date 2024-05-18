@@ -9,7 +9,7 @@ public class PasswordCrackerFactory {
                 return (PasswordCracker) new DictionaryLocalPasswordCracker();
             }
         } else if ("Online".equalsIgnoreCase(type)) {
-            // Implémentez une structure similaire pour les crackers en ligne si nécessaire
+            
         }
         return null;
     }
